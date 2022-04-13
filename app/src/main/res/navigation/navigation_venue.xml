@@ -15,5 +15,9 @@
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.findplacenearlocation.ui.fragment.DetailFragment"
-        android:label="DetailFragment" />
+        android:label="DetailFragment" >
+        <argument
+            android:name="venue"
+            app:argType="com.example.findplacenearlocation.model.Venue" />
+    </fragment>
 </navigation>
